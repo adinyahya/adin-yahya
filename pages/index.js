@@ -10,6 +10,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <h1>
+          hai
+        </h1>
       <script type="text/javascript" src="styles/js/jsku.js"></script>
       </main>
 
