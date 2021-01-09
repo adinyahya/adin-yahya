@@ -11,11 +11,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div class="w" align="center" id="textDestination" style="background-color: none;">
+        {/* <div class="w" align="center" id="textDestination" style="background-color: none;">
 	
-      </div> 
+      </div>  */}
       </main>
-      <script type="text/javascript" src="../styles/js/jsku.js"></script>
+      {/* <script type="text/javascript" src="../styles/js/jsku.js"></script> */}
     </div>
   )
 }
