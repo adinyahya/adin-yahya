@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h3>
+        <h3 className={styles.w}>
         Hai :)
         </h3>
         {/* <div className={styles.w} id='textDestination'>
