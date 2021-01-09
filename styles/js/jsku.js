@@ -32,4 +32,6 @@ var destination="[none]";
 				currentChar=1;
 				destination=destinationParam;
 				type();
-	}
+    }
+    
+    javascript:startTyping(text, 120, "textDestination");

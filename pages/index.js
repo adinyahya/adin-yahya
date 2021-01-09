@@ -10,13 +10,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>
-          hai
-        </h1>
-      <script type="text/javascript" src="styles/js/jsku.js"></script>
+        <div class="w" align="center" id="textDestination" style="background-color: none;">
+	
+      </div> 
       </main>
-
-    
+      <script type="text/javascript" src="styles/js/jsku.js"></script>
     </div>
   )
 }
