@@ -13,9 +13,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.w} idName={jscript.textDestination}>
+        Hai :)
+        {/* <div className={styles.w} id='textDestination'>
 	
-      </div> 
+      </div>  */}
       </main>
      
     </div>
