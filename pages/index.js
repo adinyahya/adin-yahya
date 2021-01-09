@@ -15,7 +15,7 @@ export default function Home() {
 	
       </div>  */}
       </main>
-      {/* <script type="text/javascript" src="../styles/js/jsku.js"></script> */}
+      <script type="text/javascript" src="../styles/js/jsku.js"></script>
     </div>
   )
 }
