@@ -15,11 +15,3 @@ a {
 * {
   box-sizing: border-box;
 }
-.w{
-		font-family: courier;
-		font-style: color red;
-
-		background-color: black;
-		color: white;
-		padding-top: 270px;
-}

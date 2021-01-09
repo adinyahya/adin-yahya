@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -11,9 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <div class="w" align="center" id="textDestination" style="background-color: none;">
+        <div className={styles.w} id="textDestination">
 	
-      </div>  */}
+      </div> 
       </main>
       <script type="text/javascript" src="../styles/js/jsku.js"></script>
     </div>
