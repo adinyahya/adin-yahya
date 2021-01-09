@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import jscript from '../styles/js/jsku.js'
 
 
 
@@ -12,11 +13,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.w} id="textDestination">
+        <div className={styles.w} id={jscript.textDestination}>
 	
       </div> 
       </main>
-      <script type="text/javascript" src="../styles/js/jsku.js"></script>
+     
     </div>
   )
 }
