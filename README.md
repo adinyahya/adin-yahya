@@ -1,30 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# benjamincarlson.io
 
-## Getting Started
+My personal portfolio website hosted at [https://benjamincarlson.io](https://benjamincarlson.io).
 
-First, run the development server:
+## Overview
+
+My personal website has changed over the years - from a static HTML/CSS/JS site to Wordpress to Jekyll to Gatsby to Django (I made a site with django but never deployed it due to it costing so much!) and finally to Next.js/React. This site has my writing, projects, gear, tutorials, experience, and much more.
+
+## Running Locally
+
+To run locally you must
+
+1. Clone this repo
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/bjcarlson42/benjamincarlson.io.git
+```
+
+or
+
+```bash
+git clone https://github.com/bjcarlson42/benjamincarlson.io.git .
+```
+
+2. Create a .env file and enter your secret keys (if you skip this step the site will still run but some data won't be fetched)
+
+```bash
+touch .env
+```
+
+Inside ```.env```:
+
+```
+YOUTUBE_KEY=
+
+GITHUB_KEY=
+
+BUTTONDOWN__KEY=
+
+FIREBASE_CLIENT_EMAIL=
+FIREBASE_PROJECT_ID=
+FIREBASE_PRIVATE_KEY=
+
+STRAVA_CLIENT_ID=
+STRAVA_SECRET=
+STRAVA_REFRESH_TOKEN=
+```
+
+3. Move into the project root and remove git tacking (if you are planning to submit a PR to this repo don't do this step!)
+
+```bash
+rm -rf .git*
+```
+
+4. Install dependencies
+
+```bash
+yarn
+```
+
+5. Run locally!
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Technologies
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- JS Framework: [Next.js](https://nextjs.org/)
+- CSS Framework: [Chakra](https://chakra-ui.com/)
+- Blog Code Syntax: [Prism.js](https://prismjs.com/)
+- Blog: [next-mdx-remote](https://github.com/hashicorp/next-mdx-remote)
+- Deployment: [Vercel](https://vercel.com/)
