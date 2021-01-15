@@ -123,7 +123,7 @@ const Projects = () => {
                         <FeaturedProjectCard
                             title="Lembaga Manajemen infaq Surabaya"
                             href="https://github.com/adinyahya/Sistem-Informasi-Operasional"
-                            src="/images/lmi.png"
+                            src="/images/lmi.jpg"
                             color={iconColor[colorMode]}
                         >
                             Build an Operational website at the company Lembaga Manajemen Infaq Surabaya.
