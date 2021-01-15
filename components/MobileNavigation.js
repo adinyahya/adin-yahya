@@ -75,6 +75,11 @@ const MobileNavigation = () => {
                     About
                     </Button>
             </NextLink>
+             <NextLink href="https://info.adinyahya.com" passHref>
+                 <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navActiveBg[colorMode] }} target="_blank">
+                    Tutorials
+                    </Button>
+            </NextLink>
             
         </StickyNav >
     )

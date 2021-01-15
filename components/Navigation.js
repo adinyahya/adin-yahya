@@ -87,11 +87,11 @@ const Navigation = () => {
                     </Button>
                 </NextLink>
                 
-                {/* <NextLink href="https://tutorials.adinyahya.com" passHref>
+                <NextLink href="https://info.adinyahya.com" passHref>
                     <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }} target="_blank">
                         Tutorials
                     </Button>
-                </NextLink> */}
+                </NextLink>
             </Box>
             <DarkModeSwitch />
         </StickyNav >
