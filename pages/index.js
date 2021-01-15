@@ -59,7 +59,7 @@ const Hello = () => {
                             alignSelf="center"
                             my={5}
                         />
-                        <Heading letterSpacing="tight" mb={4} as="h1" size="xl" alignSelf="center">
+                        <Heading letterSpacing="tight" mb={6} as="h1" size="xl" alignSelf="center">
                             Hai 👋, I'm Adin
                         </Heading>
                         <Text alignSelf="center" textAlign="center" mb={4}>I’m a newbie developer, creator, and satay seller :D. Use the links below to learn more.</Text>

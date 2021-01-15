@@ -104,7 +104,7 @@ const Projects = () => {
                         </FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="BOT Telegram"
-                            href="http://github.com/"
+                            href="https://t.me/Pecycoin_Bot"
                             src="/images/telegram.png"
                             color={iconColor[colorMode]}
                         >
