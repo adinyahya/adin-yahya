@@ -74,7 +74,7 @@ const Projects = () => {
                         src="/images/ddhub.png"
                         color={iconColor[colorMode]}
                         >
-                            Building a Website Employee Performance Achievement System Dinas Perhubungan Kabupaten Jombang.
+                            Build an Website Employee Performance Achievement System Dinas Perhubungan Kabupaten Jombang.
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="Dinas Kependudukan Pencatatan Sipil Kabupaten Jombang"
@@ -82,7 +82,7 @@ const Projects = () => {
                             src="/images/o.png"
                             color={iconColor[colorMode]}
                         >
-                            Building a Website Employee Performance Measurement System Dinas Kependudukan Dan Pencatatan Sipil Kabupaten Jombang.
+                            Build an Website Employee Performance Measurement System Dinas Kependudukan Dan Pencatatan Sipil Kabupaten Jombang.
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="Kecamatan Peterongan Kabupaten Jombang"
@@ -90,7 +90,7 @@ const Projects = () => {
                             src="/images/o.png"
                             color={iconColor[colorMode]}
                         >
-                            Building a Website for Monitoring Employee Performance Evaluation Results Kecamatan Peterongan Kabupaten Jombang.
+                            Build an Website for Monitoring Employee Performance Evaluation Results Kecamatan Peterongan Kabupaten Jombang.
                             {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
                         </FeaturedProjectCard>
                         <FeaturedProjectCard
@@ -109,6 +109,24 @@ const Projects = () => {
                             color={iconColor[colorMode]}
                         >
                             Telegram BOT to ICO and share Blockchain Token Airdrops to the community.
+                            {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
+                        </FeaturedProjectCard>
+                        <FeaturedProjectCard
+                            title="The Sateku"
+                            href="https://github.com/adinyahya/SI_TheSateku"
+                            src="/images/sateku.png"
+                            color={iconColor[colorMode]}
+                        >
+                            Website ordering system for Aqiqah / Catering for wedding meals.
+                            {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
+                        </FeaturedProjectCard>
+                        <FeaturedProjectCard
+                            title="Lembaga Manajemen infaq Surabaya"
+                            href="https://github.com/adinyahya/Sistem-Informasi-Operasional"
+                            src="/images/lmi.png"
+                            color={iconColor[colorMode]}
+                        >
+                            Build an Operational website at the company Lembaga Manajemen Infaq Surabaya.
                             {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
                         </FeaturedProjectCard>
                         <FeaturedProjectCard

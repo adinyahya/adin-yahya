@@ -102,7 +102,7 @@ const TimelineFull = () => (
             <TimelineStep title="Graduated College 🎓">
             Graduate from college to earn a Bachelor's Degree Informatics Engineering.
             </TimelineStep>
-            <TimelineStep title="Building Blockchain Currency">
+            <TimelineStep title="Building Blockchain Cryptocurrency">
             Creative Design Produk (LOGO), Sponsor, Listing Token NEURAL PROTOCOL and Build a Website Official
             </TimelineStep>
         </List>
