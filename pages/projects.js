@@ -71,7 +71,7 @@ const Projects = () => {
                         <FeaturedProjectCard
                         title="Dinas Perhubungan Kabupaten Jombang"
                         href="http://dishub.sansthink.com"
-                        src="/images/o.png"
+                        src="/images/ddhub.png"
                         color={iconColor[colorMode]}
                         >
                             Building a Website Employee Performance Achievement System Dinas Perhubungan Kabupaten Jombang.
