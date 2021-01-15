@@ -117,7 +117,7 @@ const Projects = () => {
                             src="/images/sateku.png"
                             color={iconColor[colorMode]}
                         >
-                            Website ordering system for Aqiqah / Catering for wedding meals.
+                            Website Ordering Data Collection System for Aqiqah / Catering for wedding meals.
                             {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
                         </FeaturedProjectCard>
                         <FeaturedProjectCard
