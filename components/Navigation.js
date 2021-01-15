@@ -76,6 +76,11 @@ const Navigation = () => {
                         Projects
                     </Button>
                 </NextLink>
+                <NextLink href="https://info.adinyahya.com" passHref>
+                    <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }} target="_blank">
+                        Blog
+                    </Button>
+                </NextLink>
                 <NextLink href="/gear" passHref>
                     <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/gear' ? navHoverBg[colorMode] : null}>
                         Gear
@@ -87,11 +92,7 @@ const Navigation = () => {
                     </Button>
                 </NextLink>
                 
-                <NextLink href="https://info.adinyahya.com" passHref>
-                    <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }} target="_blank">
-                        Tutorials
-                    </Button>
-                </NextLink>
+                
             </Box>
             <DarkModeSwitch />
         </StickyNav >

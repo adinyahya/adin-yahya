@@ -65,6 +65,11 @@ const MobileNavigation = () => {
                     Projects
                     </Button>
             </NextLink>
+            <NextLink href="https://info.adinyahya.com" passHref>
+                 <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navBgColor[colorMode] }} target="_blank">
+                    Blog
+                    </Button>
+            </NextLink>
             <NextLink href="/gear" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/gear' ? navActiveBg[colorMode] : null}>
                     Gear
@@ -75,11 +80,7 @@ const MobileNavigation = () => {
                     About
                     </Button>
             </NextLink>
-             <NextLink href="https://info.adinyahya.com" passHref>
-                 <Button as="a" variant="ghost" p={[1, 2, 4]} _hover={{ backgroundColor: navBgColor[colorMode] }} target="_blank">
-                    Tutorials
-                    </Button>
-            </NextLink>
+            
             
         </StickyNav >
     )
