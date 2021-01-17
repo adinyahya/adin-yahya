@@ -166,7 +166,7 @@ export default function Index() {
                 src="/images/ddhub.png"
                 color={iconColor[colorMode]}
             >
-                Building a Website Employee Performance Achievement System Dinas Perhubungan Kabupaten Jombang.
+                Develop a Website Employee Performance Achievement System Dinas Perhubungan Kabupaten Jombang.
             </ FeaturedProjectCard>
             <FeaturedProjectCard
                 title="Dinas Kependudukan Pencatatan Sipil Kabupaten Jombang"
@@ -174,7 +174,7 @@ export default function Index() {
                 src="/images/o.png"
                 color={iconColor[colorMode]}
             >
-                Building a Website Employee Performance Measurement System Dinas Kependudukan Dan Pencatatan Sipil Kabupaten Jombang.
+                Develop a Website Employee Performance Measurement System Dinas Kependudukan Dan Pencatatan Sipil Kabupaten Jombang.
             </ FeaturedProjectCard>
             <FeaturedProjectCard
                 title="Kecamatan Peterongan Kabupaten Jombang"
@@ -182,7 +182,7 @@ export default function Index() {
                 src="/images/o.png"
                 color={iconColor[colorMode]}
             >
-                Building a Website for Monitoring Employee Performance Evaluation Results Kecamatan Peterongan Kabupaten Jombang.
+                Developing a Website to Monitor Employee Performance Evaluation Results Kecamatan Peterongan Kabupaten Jombang.
                 {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
             </FeaturedProjectCard>
             
