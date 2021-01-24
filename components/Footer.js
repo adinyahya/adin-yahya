@@ -28,7 +28,7 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
-                <Link href="https://twitter.com/adinyahya" title="Twitter" isExternal>
+                {/* <Link href="https://twitter.com/adinyahya" title="Twitter" isExternal>
                     <IconButton
                         aria-label="Twitter"
                         icon={<SiTwitter />}
@@ -37,7 +37,7 @@ export const Footer = () => {
                         variant="ghost"
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
-                </Link>
+                </Link> */}
                 
                 {/* <Link
                     href="https://www.linkedin.com/in/bjcarlson42"
