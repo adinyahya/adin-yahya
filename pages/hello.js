@@ -162,6 +162,7 @@ export default function Index() {
             </Heading>
             <FeaturedProjectCard
                 title="Dinas Perhubungan Kabupaten Jombang"
+                years="December 2020"
                 href="http://dishub.sansthink.com"
                 src="/images/ddhub.png"
                 color={iconColor[colorMode]}
@@ -170,6 +171,7 @@ export default function Index() {
             </ FeaturedProjectCard>
             <FeaturedProjectCard
                 title="Dinas Kependudukan Pencatatan Sipil Kabupaten Jombang"
+                years="September 2020"
                 href="https://dukcapil.jombangkab.go.id/pengukuran"
                 src="/images/o.png"
                 color={iconColor[colorMode]}
@@ -178,6 +180,7 @@ export default function Index() {
             </ FeaturedProjectCard>
             <FeaturedProjectCard
                 title="Kecamatan Peterongan Kabupaten Jombang"
+                years="July 2020"
                 href="http://sitahu-terong.freeusebot.site"
                 src="/images/o.png"
                 color={iconColor[colorMode]}

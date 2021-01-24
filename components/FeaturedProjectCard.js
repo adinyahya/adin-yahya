@@ -9,7 +9,7 @@ import {
     Image
 } from '@chakra-ui/react'
 
-const FeaturedProjectCard = ({ title, href, children, src }) => {
+const FeaturedProjectCard = ({ title, href, years, children, src }) => {
     const { colorMode } = useColorMode()
     const borderColor = {
         light: 'gray.200',
@@ -58,6 +58,9 @@ const FeaturedProjectCard = ({ title, href, children, src }) => {
                         {title}
                     </Heading>
                     <Text color={colorSecondary[colorMode]}>{children}</Text>
+                    <Text fontStyle="italic" color="gray.600" fontSize="14px">
+                            {years}
+                        </Text>
                 </Stack>
             </Flex>
         </Link>

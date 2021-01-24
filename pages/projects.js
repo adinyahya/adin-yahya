@@ -70,6 +70,7 @@ const Projects = () => {
                         </Heading>
                         <FeaturedProjectCard
                         title="Dinas Perhubungan Kabupaten Jombang"
+                        years="December 2020"
                         href="http://dishub.sansthink.com"
                         src="/images/ddhub.png"
                         color={iconColor[colorMode]}
@@ -78,6 +79,7 @@ const Projects = () => {
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="Dinas Kependudukan Pencatatan Sipil Kabupaten Jombang"
+                            years="September 2020"
                             href="https://dukcapil.jombangkab.go.id/pengukuran"
                             src="/images/o.png"
                             color={iconColor[colorMode]}
@@ -86,6 +88,7 @@ const Projects = () => {
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="Kecamatan Peterongan Kabupaten Jombang"
+                            years="July 2020"
                             href="http://sitahu-terong.freeusebot.site"
                             src="/images/o.png"
                             color={iconColor[colorMode]}
@@ -95,6 +98,7 @@ const Projects = () => {
                         </FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="BOT Twitter"
+                            years="June 2020"
                             href="http://freeusebot.site/"
                             src="/images/twitter.png"
                             color={iconColor[colorMode]}
@@ -104,6 +108,7 @@ const Projects = () => {
                         </FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="BOT Telegram"
+                            years="August 2019"
                             href="https://t.me/Pecycoin_Bot"
                             src="/images/telegram.png"
                             color={iconColor[colorMode]}
@@ -113,6 +118,7 @@ const Projects = () => {
                         </FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="The Sateku"
+                            years="July 2019"
                             href="https://github.com/adinyahya/SI_TheSateku"
                             src="/images/sateku.png"
                             color={iconColor[colorMode]}
@@ -121,16 +127,8 @@ const Projects = () => {
                             {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
                         </FeaturedProjectCard>
                         <FeaturedProjectCard
-                            title="Lembaga Manajemen infaq Surabaya"
-                            href="https://github.com/adinyahya/Sistem-Informasi-Operasional"
-                            src="/images/lmi.jpg"
-                            color={iconColor[colorMode]}
-                        >
-                            Develop an Operational Website at the company Lembaga Manajemen Infaq Surabaya.
-                            {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
-                        </FeaturedProjectCard>
-                        <FeaturedProjectCard
                             title="Tukatuku Marketplace"
+                            years="March 2019"
                             href="http://tukatuku.net/"
                             src="/images/tukatuku.jpg"
                             color={iconColor[colorMode]}
@@ -138,6 +136,17 @@ const Projects = () => {
                             Developing a Marketplace Website that is supported by blockchain technology, which makes it easier to find sellers and buyers within a scope of buying and selling goods.
                             {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
                         </FeaturedProjectCard>
+                        <FeaturedProjectCard
+                            title="Lembaga Manajemen infaq Surabaya"
+                            years="January 2017"
+                            href="https://github.com/adinyahya/Sistem-Informasi-Operasional"
+                            src="/images/lmi.jpg"
+                            color={iconColor[colorMode]}
+                        >
+                            Develop an Operational Website at the company Lembaga Manajemen Infaq Surabaya.
+                            {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
+                        </FeaturedProjectCard>
+                       
                         {/* <GitHubSponsorCard /> */}
                         {/* <Heading letterSpacing="tight" mb={2} mt={4} size="xl" fontWeight={700}>
                             All Projects
