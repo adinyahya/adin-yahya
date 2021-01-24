@@ -70,7 +70,7 @@ const Hello = () => {
                         {/* <SocialLink name="Sponsor me on GitHub!" href="https://github.com/sponsors/bjcarlson42" icon={GitHubIcon} /> */}
                         {/* <SocialLink name="Subscribe To My YouTube Channel!" href="https://www.youtube.com/channel/UC3loqtJQMuPWu-dg5byMrcQ?sub_confirmation=1" icon={YoutubeIcon} /> */}
                         <SocialLink name="Follow Me On Facebook Channel!" href="https://www.facebook.com/gaming/riceknow" icon={YoutubeIcon}/>
-                        <SocialLink name="Follow Me On Twitter!" href="https://twitter.com/adinyahya" icon={TwitterIcon} />
+                        {/* <SocialLink name="Follow Me On Twitter!" href="https://twitter.com/adinyahya" icon={TwitterIcon} /> */}
                     </Flex>
                 </Stack>
             </Container>
