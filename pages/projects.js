@@ -69,6 +69,15 @@ const Projects = () => {
                             Featured Projects
                         </Heading>
                         <FeaturedProjectCard
+                        title="Suksespedia Inspira Success"
+                        years="April 2021 - Now"
+                        href="http://suksespedia.id"
+                        src="https://yt3.ggpht.com/ytc/AAUvwnhdeEjE1bGuOkxvbyHPZceyW9D7tGpBTea3F3kDMg=s900-c-k-c0x00ffffff-no-rj"
+                        color={iconColor[colorMode]}
+                        >
+                            Develop a Website educational and inspirational success referral platform in Indonesia.
+                        </ FeaturedProjectCard>
+                        <FeaturedProjectCard
                         title="Dinas Perhubungan Kabupaten Jombang"
                         years="December 2020"
                         href="http://dishub.sansthink.com"

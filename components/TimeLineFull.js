@@ -58,11 +58,11 @@ const TimelineFull = () => (
             my={4}
             letterSpacing="tighter"
         >
-            2021
+            2021 April - Now
       </Heading>
         <List>
-            <TimelineStep title="Worked beginning of the month in the new year 👔">
-           
+            <TimelineStep title="Working at The Company Suksespedia as a Web Developer 👔">
+            Develop a <Link href="https://suksespedia.id" color="red.500" isExternal>Suksespedia</Link> Website as a success reference platform and educational and inspirational success <Link href="https://learning.suksespedia.id" color="red.500" isExternal>Learning</Link> Website in Indonesia
             </TimelineStep>
         </List>
 

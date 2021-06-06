@@ -76,7 +76,7 @@ export default function Index() {
               size="xl"
               visibility={['visible', 'visible', 'hidden']}
             >
-              Hai! I'm Adin Yahya, a newbie developer.
+              Hai! I'm Adin Yahya, a newbie web developer.
             </Heading>
             <Text
               color={colorSecondary[colorMode]}

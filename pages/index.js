@@ -62,7 +62,7 @@ const Hello = () => {
                         <Heading letterSpacing="tight" mb={6} as="h1" size="xl" alignSelf="center">
                             Hai 👋, I'm Adin 
                         </Heading>
-                        <Text alignSelf="center" textAlign="center" mb={4}>I’m a newbie developer, creator, and satay seller :D. Use the links below to learn more.</Text>
+                        <Text alignSelf="center" textAlign="center" mb={4}>I’m a newbie web developer, creator, and satay seller :D. Use the links below to learn more.</Text>
                         
                         <SocialLink name="Check Out My Website!" href="/hello" icon={CodeIcon} />
                         <SocialLink name="View My Github!" href="https://github.com/adinyahya?tab=repositories" icon={GitHubIcon} />

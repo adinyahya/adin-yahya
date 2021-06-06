@@ -57,7 +57,7 @@ const About = () => {
                             About
                         </Heading>
                         <Text color={colorSecondary[colorMode]}>
-                            I’m a developer, writer, creator and and I am also a satay seller :).
+                            I’m newbie web developer, writer, creator and and I am also a satay seller :).
                         </Text>
                         <Heading letterSpacing="tight" mt={8} mb={2} size="xl" fontWeight={700}>
                             Timeline

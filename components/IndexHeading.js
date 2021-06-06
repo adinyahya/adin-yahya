@@ -19,7 +19,7 @@ const IndexHeading = () => {
             mb={-10}
         >
             <Heading mb={15} as="h2" fontSize={["20px", "30px", "40px"]}>
-                Hai! I'm Adin Yahya, a newbie <Flex display="inline" color="pink.500">developer</Flex>.
+                Hai! I'm Adin Yahya, a newbie <Flex display="inline" color="pink.500">web developer</Flex>.
                 
             </Heading>
             {/* <Link alignSelf="center" href="#main" mt={20}>

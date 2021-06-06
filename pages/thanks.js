@@ -71,6 +71,10 @@ const Thanks = () => {
                                 <ListIcon as={StarIcon} color="yellow.300" />
                                 <Link isExternal href="https://github.com/grikomsn" color="red.500">Griko Nibras</Link>
                             </ListItem>
+                            <ListItem>
+                                <ListIcon as={StarIcon} color="yellow.300" />
+                                <Link isExternal href="https://github.com/hafidu" color="red.500">Mohammad hafidu</Link>
+                            </ListItem>
                         </List>
                     </Flex>
                 </Stack>
