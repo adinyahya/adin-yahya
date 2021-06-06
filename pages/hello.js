@@ -161,6 +161,15 @@ export default function Index() {
             Recent Projects
             </Heading>
             <FeaturedProjectCard
+                        title="Suksespedia Inspira Success"
+                        years="April 2021 - Now"
+                        href="http://suksespedia.id"
+                        src="https://yt3.ggpht.com/ytc/AAUvwnhdeEjE1bGuOkxvbyHPZceyW9D7tGpBTea3F3kDMg=s900-c-k-c0x00ffffff-no-rj"
+                        color={iconColor[colorMode]}
+                        >
+                            Develop a Website educational and inspirational success referral platform in Indonesia.
+                        </ FeaturedProjectCard>
+            <FeaturedProjectCard
                 title="Dinas Perhubungan Kabupaten Jombang"
                 years="December 2020"
                 href="http://dishub.sansthink.com"
@@ -178,16 +187,7 @@ export default function Index() {
             >
                 Develop a Website Employee Performance Measurement System Dinas Kependudukan Dan Pencatatan Sipil Kabupaten Jombang.
             </ FeaturedProjectCard>
-            <FeaturedProjectCard
-                title="Kecamatan Peterongan Kabupaten Jombang"
-                years="July 2020"
-                href="http://sitahu-terong.freeusebot.site"
-                src="/images/o.png"
-                color={iconColor[colorMode]}
-            >
-                Developing a Website to Monitor Employee Performance Evaluation Results Kecamatan Peterongan Kabupaten Jombang.
-                {/* My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data. */}
-            </FeaturedProjectCard>
+          
             
             <Flex justify="center" width="100%">
               <NextLink href="/projects" passHref>
