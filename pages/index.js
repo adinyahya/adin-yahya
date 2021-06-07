@@ -12,7 +12,7 @@ import fetcher from '../lib/fetcher'
 
 import SocialLink from '../components/SocialLink'
 import Container from '../components/Container'
-import { TwitterIcon, YoutubeIcon, GitHubIcon, MailIcon, CodeIcon } from '../components/CustomIcons'
+import { TwitterIcon, YoutubeIcon, GitHubIcon, MailIcon, InstagramIcon, CodeIcon } from '../components/CustomIcons'
 
 const url = 'https://adinyahya.com/'
 const titleSEO = 'Hai – Adin Yahya'
@@ -66,6 +66,7 @@ const Hello = () => {
                         
                         <SocialLink name="Check Out My Website!" href="/hello" icon={CodeIcon} />
                         <SocialLink name="View My Github!" href="https://github.com/adinyahya?tab=repositories" icon={GitHubIcon} />
+                        <SocialLink name="Follow My Instagram!" href="https://instagram.com/adin_yahya" icon={InstagramIcon} />
                         {/* <SocialLink name="Subscribe to my newsletter" href="https://buttondown.email/adinyahya" icon={MailIcon} /> */}
                         {/* <SocialLink name="Sponsor me on GitHub!" href="https://github.com/sponsors/bjcarlson42" icon={GitHubIcon} /> */}
                         {/* <SocialLink name="Subscribe To My YouTube Channel!" href="https://www.youtube.com/channel/UC3loqtJQMuPWu-dg5byMrcQ?sub_confirmation=1" icon={YoutubeIcon} /> */}
