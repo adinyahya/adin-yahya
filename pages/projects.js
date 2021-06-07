@@ -69,7 +69,7 @@ const Projects = () => {
                             Featured Projects
                         </Heading>
                         <FeaturedProjectCard
-                        title="Suksespedia Inspira Success"
+                        title="Suksespedia Inspire Success"
                         years="April 2021 - Now"
                         href="http://suksespedia.id"
                         src="https://yt3.ggpht.com/ytc/AAUvwnhdeEjE1bGuOkxvbyHPZceyW9D7tGpBTea3F3kDMg=s900-c-k-c0x00ffffff-no-rj"
